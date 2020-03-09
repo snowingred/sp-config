@@ -3,7 +3,7 @@ spring:
   application:
     name: item-service
   cloud:
-    config:
+   config:
     override-none: true
     
 server:
