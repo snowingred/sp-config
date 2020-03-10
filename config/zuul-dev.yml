@@ -17,7 +17,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
-
+  instance:
+    prefer-ip-address: true
 #代理路由规则
 #下面配置可有可无 没有的话会按照eureka注册里面的ixnxi作为标准
 zuul:
